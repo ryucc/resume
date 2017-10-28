@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV 
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.1in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+
+%\address{130 N.Orchard St. Unit #3, Madison, WI}
+%\address{(608) 421-4190}
+\begin{document}
+\begin{center}
+{\MakeUppercase{\bf Kurtis Liu}}\\
+US Citizen.
+(608) 421-4190, liukurtis@gmail.com
+\end{center}
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{objective}
+%Looking a Software Engineering Position, January %2018.
+%\end{rSection}
+
+%------------------------------------------------------------------
+% ---------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+{\bf University of Wisconsin - Madison} \hfill {09/2016 - 12/2017 (expected)}\\ 
+M.S. in {\bf Computer Science} \\
+Selected courses:  Machine Learning, Computer Vision, Image Processing, Pattern Recognition
+
+
+{\bf National Taiwan University} \hfill   {09/2012 - 06/2016}\\ 
+B.S. in Engineering,  {\bf Computer Science} and Information Engineering\\
+Minor, {\bf Mathematics} \\
+Selected courses: Functional Analysis, Complex Analysis, Probability\\
+%Video Encoding and Communication, Computer Security, Parallel Programming\\
+%2013/01 Dean's Award for 1st in class.\\
+%2014/09 Dean's Award for 6th in class.
+GPA: 3.84
+\end{rSection}
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Work Experience}
+
+    \begin{rSubsection}{Accuray Inc. -- Software Engineer Intern}{05/2017 - 08/2017}{}{}%{\bf Software Engineer Intern }{Supervisor: Gabe Westmont}
+%\item Design embedded system core utilities with C++.
+%\item Design user interfaces with C++/wxWidgets.
+%\item Designed and developed scheduling utilities.
+%\item Developed Python interfaces for C++ components.
+\item Embedded software design for the Radixact radiation therapy system.
+\item Designed internal scheduler on Linux, using C++11/Boost.
+\item Developed Messaging System, GUIs, Python interfaces to C++ controlled hardware. 
+%\item Automate testing with python/bash scripting.
+\end{rSubsection}
+
+\begin{rSubsection}{NTU Lab for Language Technologies -- Software Developer}{09/2014 - 10/2014}{}{}%{Supervisor: Prof.Zhao-Ming Gao}
+\item Statistical Natural Language Processing for English Essay Grading.
+\item Feature extraction, Linear regression, and Hypothesis testing.
+\item Connected the R/Python/PHP Codebase with shell scripts.
+\item Optimized previously O($n^2\log^2n$) queries to O($n\log n$).
+\end{rSubsection}
+
+\begin{rSubsection}{UW-Madison - Teaching Assistant}{08/2016 - Present}{}{}%{\bf Short-Term Software Contractor}{}
+\item CS540 -- Artificial Intellegence, CS240 -- Discrete Mathematics, CS310 -- Problem Solving for Engineers
+\item Searching algorithms, baysian models, Supervised learning
+\item Sets, Proofs, Program Correctness, Recurrences, Asymptotic Analysis, Finite Automata
+\item Matlab programming, Numerical methods
+\end{rSubsection}
+
+%\begin{rSubsection}{Lab of Algorithmic Research}{January 2014 - June 2016}{Undergraduate Researcher}{Supervisor: Prof.Hsueh-I Lu}
+%\item Multiple s-t pair Non-crossing Shortest Paths
+%\end{rSubsection}
+%\begin{rSubsection}{Cavedu Intelligent House - Short-Term Software Contractor}{06/2016}{}{}%{\bf Short-Term Software Contractor}{}
+%\item Built face recognition system, optimize OpenCV code for Raspberry PI.
+%\item Github: https://github.com/jerry73204/cavedu-intelligent-house
+%\end{rSubsection}
+
+
+\begin{rSubsection}{Lab of Algorithmic Research -- Undergraduate Researcher}{01/2014 - 06/2016}{}{}%{January 2014 - June 2016}{Undergraduate Researcher}{Supervisor: Prof.Hsueh-I Lu}
+\item Multiple source terminal pair for non-crossing Shortest Paths on planear graphs.
+\item Combined techniques of dense distanse graphs and graph decomposition to achive lower complexity.
+\end{rSubsection}
+%{
+%\begin{rSubsection}{Software Developer}{September 2014 - October 2014}{NTU %Laboratory for Language Technologies}{Supervisor: Prof.Zhao-Ming Gao}
+%\item Natural Language Processing.
+%\item Python, PHP, R scripting with MySQL db.
+%\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{Machine Learning -- Temporal Point Process}{05/2017}{}{}
+%\item The Network Hawkes Process predicts the relations between Temporal Point Process. \\Previous approaches used Bayesian models to reconstruct the underlying network. 
+\item Solves the Network Hawkes problem with Density estimation, Markov chains, and Deep Learning.
+\item Implementations: Two layer Neural Network, Convolutional logistic regression.
+\item Accuracy of the edge prediction were 85\%. Recovered response functions without any priors.
+%\item https://github.com/ryucc/ShallowHawkes/
+\end{rSubsection}
+
+
+\begin{rSubsection}{Computer Vision -- Hyper-lapse Video Stabilization}{05/2017}{}{}
+%\item{} [Joshi, Neel, et al 2015] used the sum-of-keypoint distance as a minimization target for frame selection. We formulated the jittering effect to as measure, proving a new frame selection algorithm. 
+\item Proposed to use the amplitude of jittering as a optimization target for frame selection.
+\item Results gave human eye more comfort, Optical Flow algorithms better optimization. 
+\item https://sites.google.com/view/cs766-hyperlapse-video/
+\end{rSubsection}
+
+%\begin{rSubsection}{Computer Vision -- Medical Image Analysis}{11/2016}{}{}
+%\item Implemented divergence metrics for the C++ ITK open source imaging toolkit.
+%\item MRI/CT Brain image resigtration.
+%\item http://pages.cs.wisc.edu/\textasciitilde kurtis/ITKMetrics/
+%\end{rSubsection}
+
+\begin{rSubsection}{Artificial Intelligence -- Movie Clip Catagorization}{05/2015}{}{}
+\item A Project to classify a set of movie clips in labeled in 3 catagories. 
+\item K-Nearest Neighbors, Bag of words, Support vector machines.
+\item SIFT features, Image Segmentation, Optical flow features. Fourier Transforms.
+\item Cross Validation showed a 80\% accuracy on the data set.
+
+\end{rSubsection}
+
+\end{rSection}
+
+%------------------------------------------------
+
+
+
+
+%\begin{rSection}{Research Experience}
+
+%\begin{rSubsection}{Lab of Algorithmic Research}{January 2014 - June 2016}{Undergraduate Researcher}{Supervisor: Prof.Hsueh-I Lu}
+%\item Multiple s-t pair Non-crossing Shortest Paths
+%\end{rSubsection}
+%\end{rSection}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+Programming languages: C++, C, Python, Matlab, Shell Scripting\\
+Platforms: Linux, Git  \\
+Toolkits: TensorFlow, Keras, OpenCV, OpenCL\\
+
+\end{rSection}
+
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
