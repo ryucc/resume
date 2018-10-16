@@ -22,23 +22,22 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.75in,top=0.1in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+\usepackage[left=0.5in,top=0.1in,right=0.5in,bottom=0.1in]{geometry} % Document margins
 
 %\address{130 N.Orchard St. Unit #3, Madison, WI}
 %\address{(608) 421-4190}
 \begin{document}
 \begin{center}
 {\MakeUppercase{\bf Kurtis Liu}}\\
-US Citizen.
-(608) 421-4190, kliu89@wisc.edu
+U.S. Citizen, (608) 421-4190, kliu89@wisc.edu
 \end{center}
 %----------------------------------------------------------------------------------------
 %	OBJECTIVE SECTION
 %----------------------------------------------------------------------------------------
 
-%\begin{rSection}{objective}
-%Looking a Software Engineering Position, January %2018.
-%\end{rSection}
+\begin{rSection}{objective}
+Software Engineer searching for an Image or Video processing position. Available immediately.
+\end{rSection}
 
 %------------------------------------------------------------------
 % ---------------------
@@ -47,17 +46,16 @@ US Citizen.
 \begin{rSection}{Education}
 {\bf University of Wisconsin - Madison} \hfill {09/2016 - 05/2018}\\ 
 M.S. in {\bf Computer Science} \\
-Selected courses:  Machine Learning, Computer Vision, Image Processing, Pattern Recognition
+Selected courses: {\bf Computer Vision, Computer Graphics, Image Processing, Pattern Recognition}
 
 
 {\bf National Taiwan University} \hfill   {09/2012 - 06/2016}\\ 
-B.S. in Engineering,  {\bf Computer Science} and Information Engineering\\
-Minor, {\bf Mathematics} \\
-Selected courses: Functional Analysis, Complex Analysis, Probability\\
-%Video Encoding and Communication, Computer Security, Parallel Programming\\
+B.S. in Engineering,  {\bf Computer Science and Information Engineering}, Minor, {\bf Mathematics} \\
+%Selected courses: Functional Analysis, Complex Analysis, Probability\\
+Selected courses: {\bf Video Encoding and Communication}, Parallel Programming, Computer Security
 %2013/01 Dean's Award for 1st in class.\\
 %2014/09 Dean's Award for 6th in class.
-GPA: 3.84
+%GPA: 3.84
 \end{rSection}
 %------------------------------------------------
 %----------------------------------------------------------------------------------------
@@ -65,44 +63,45 @@ GPA: 3.84
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Work Experience}
 
-    \begin{rSubsection}{Accuray Inc. -- Software Engineer Intern}{05/2017 - 08/2017}{}{}%{\bf Software Engineer Intern }{Supervisor: Gabe Westmont}
+\begin{rSubsection}{Accuray Inc. -- Software Engineer Intern}{05/2017 - 08/2018}{}{}%{\bf Software Engineer Intern }{Supervisor: Gabe Westmont}
 %\item Design embedded system core utilities with C++.
 %\item Design user interfaces with C++/wxWidgets.
 %\item Designed and developed scheduling utilities.
 %\item Developed Python interfaces for C++ components.
 \item Embedded software design for the Radixact radiation therapy system.
-\item Designed internal scheduler on Linux, using C++11/Boost.
-\item Developed Messaging System, GUIs, Python interfaces to C++ controlled hardware. 
+\item Designed internal scheduler, messaging system, GUIs on Linux, using C++11/Boost.
+\item Pushed over 5 projects into production code in 2 summers.
 %\item Automate testing with python/bash scripting.
 \end{rSubsection}
 
-\begin{rSubsection}{NTU Lab for Language Technologies -- Software Developer}{09/2014 - 10/2014}{}{}%{Supervisor: Prof.Zhao-Ming Gao}
-\item Statistical Natural Language Processing for English Essay Grading.
-\item Feature extraction, Linear regression, and Hypothesis testing.
-\item Connected the R/Python/PHP Codebase with shell scripts.
-\item Optimized previously O($n^2\log^2n$) queries to O($n\log n$).
+\begin{rSubsection}{Cavedu Intelligent House - Short-Term Software Contractor}{06/2016}{}{}%{\bf Short-Term Software Contractor}{}
+\item Built the face recognition component for a demo IOT security doll house.
+\item Tuned frame rate, resolution, window size, and window step size parameters, for {\bf OpenCV} code to run on a Raspberry PI CPU.
+\item Github: https://github.com/jerry73204/cavedu-intelligent-house
 \end{rSubsection}
 
-\begin{rSubsection}{UW-Madison - Teaching Assistant}{08/2016 - Present}{}{}%{\bf Short-Term Software Contractor}{}
-\item CS540 -- Artificial Intellegence, CS240 -- Discrete Mathematics, CS310 -- Problem Solving for Engineers
-\item Searching algorithms, bayesian models, Supervised learning
-\item Sets, Proofs, Program Correctness, Recurrences, Asymptotic Analysis, Finite Automata
-\item Matlab programming, Numerical methods
+
+\begin{rSubsection}{NTU Lab for Language Technologies -- Software Developer}{09/2014 - 10/2014}{}{}%{Supervisor: Prof.Zhao-Ming Gao}
+\item Statistical Natural Language Processing for automatic essay grading.
+\item Feature extraction using the Stanford NLP parser. Built linear model based on the frequencies of patterns.
+\item Pipelined MySQL/Python/R/PHP code stack, and optimized previously O($n^2\log^2n$) queries to O($n\log n$).
+\end{rSubsection}
+
+\begin{rSubsection}{University of Wisconsin-Madison - Teaching Assistant}{08/2016 - 05/2018}{}{}%{\bf Short-Term Software Contractor}{}
+%\item CS540 -- Artificial Intellegence, CS240 -- Discrete Mathematics, CS310 -- Problem Solving for Engineers
+\item Taught searching algorithms, bayesian models, supervised learning.
+%\item Sets, Proofs, Program Correctness, Recurrences, Asymptotic Analysis, Finite Automata
+\item Led lab sessions on matlab programming, numerical methods, and image processing.
 \end{rSubsection}
 
 %\begin{rSubsection}{Lab of Algorithmic Research}{January 2014 - June 2016}{Undergraduate Researcher}{Supervisor: Prof.Hsueh-I Lu}
 %\item Multiple s-t pair Non-crossing Shortest Paths
 %\end{rSubsection}
-%\begin{rSubsection}{Cavedu Intelligent House - Short-Term Software Contractor}{06/2016}{}{}%{\bf Short-Term Software Contractor}{}
-%\item Built face recognition system, optimize OpenCV code for Raspberry PI.
-%\item Github: https://github.com/jerry73204/cavedu-intelligent-house
+
+%\begin{rSubsection}{Lab of Algorithmic Research -- Undergraduate Researcher}{01/2014 - 06/2016}{}{}%{January 2014 - June 2016}{Undergraduate Researcher}{Supervisor: Prof.Hsueh-I Lu}
+%\item Multiple source terminal pair for non-crossing Shortest Paths on planear graphs.
+%\item Combined techniques of dense distanse graphs and graph decomposition to achive lower complexity.
 %\end{rSubsection}
-
-
-\begin{rSubsection}{Lab of Algorithmic Research -- Undergraduate Researcher}{01/2014 - 06/2016}{}{}%{January 2014 - June 2016}{Undergraduate Researcher}{Supervisor: Prof.Hsueh-I Lu}
-\item Multiple source terminal pair for non-crossing Shortest Paths on planear graphs.
-\item Combined techniques of dense distanse graphs and graph decomposition to achive lower complexity.
-\end{rSubsection}
 %{
 %\begin{rSubsection}{Software Developer}{September 2014 - October 2014}{NTU %Laboratory for Language Technologies}{Supervisor: Prof.Zhao-Ming Gao}
 %\item Natural Language Processing.
@@ -111,36 +110,36 @@ GPA: 3.84
 
 \end{rSection}
 
-\begin{rSection}{Projects}
+\begin{rSection}{Selected School Projects}
+
+\begin{rSubsection}{Computer Vision -- Hyperlapse Video Stabilization}{05/2017}{}{}
+%\item{} [Joshi, Neel, et al 2015] used the sum-of-keypoint distance as a minimization target for frame selection. We formulated the jittering effect to as measure, proving a new frame selection algorithm. 
+\item Reduced jittering of an hyperlapse video by selecting better frames. Using SIFT/Haar keypoints to track motion, maximizing the time length of single direction movements, and reducing visual acceleration.
+%\item Proposed to use the amplitude of jittering as a optimization target for frame selection.
+%\item Results gave human eye more comfort, Optical Flow algorithms better optimization. 
+\item Implemented using Python/OpenCV. https://sites.google.com/view/cs766-hyperlapse-video/
+\end{rSubsection}
+
+\begin{rSubsection}{Artificial Intelligence -- Movie Clip Catagorization}{05/2015}{}{}
+\item A project to classify a set of movie clips labeled in 3 catagories. 
+\item Classification using SIFT keypoint describers, image segmentation, optical flow features. Dimension reduction using k-means and bag-of-words. Training and prediction using a Support Vector Machine.
+\item Cross validation showed a 80\% accuracy on the data set.
 
 \begin{rSubsection}{Machine Learning -- Temporal Point Process}{05/2017}{}{}
 %\item The Network Hawkes Process predicts the relations between Temporal Point Process. \\Previous approaches used Bayesian models to reconstruct the underlying network. 
-\item Solves the Network Hawkes problem with Density estimation, Markov chains, and Deep Learning.
-\item Implementations: Two layer Neural Network, Convolutional logistic regression.
-\item Accuracy of the edge prediction were 85\%. Recovered response functions without any priors.
+\item Solved the Network Hawkes problem using density estimation, deep learning, and logistic regression.
+\item Proved convergence of the model using a markov chain to describe the training process.
+\item Accuracy of the edge prediction were 85\%. Recovered response functions without any bayesian priors.
 %\item https://github.com/ryucc/ShallowHawkes/
 \end{rSubsection}
 
 
-\begin{rSubsection}{Computer Vision -- Hyper-lapse Video Stabilization}{05/2017}{}{}
-%\item{} [Joshi, Neel, et al 2015] used the sum-of-keypoint distance as a minimization target for frame selection. We formulated the jittering effect to as measure, proving a new frame selection algorithm. 
-\item Proposed to use the amplitude of jittering as a optimization target for frame selection.
-\item Results gave human eye more comfort, Optical Flow algorithms better optimization. 
-\item https://sites.google.com/view/cs766-hyperlapse-video/
-\end{rSubsection}
 
 %\begin{rSubsection}{Computer Vision -- Medical Image Analysis}{11/2016}{}{}
 %\item Implemented divergence metrics for the C++ ITK open source imaging toolkit.
 %\item MRI/CT Brain image resigtration.
 %\item http://pages.cs.wisc.edu/\textasciitilde kurtis/ITKMetrics/
 %\end{rSubsection}
-
-\begin{rSubsection}{Artificial Intelligence -- Movie Clip Catagorization}{05/2015}{}{}
-\item A Project to classify a set of movie clips in labeled in 3 catagories. 
-\item K-Nearest Neighbors, Bag of words, Support vector machines.
-\item SIFT features, Image Segmentation, Optical flow features. Fourier Transforms.
-\item Cross Validation showed a 80\% accuracy on the data set.
-
 \end{rSubsection}
 
 \end{rSection}
@@ -164,9 +163,10 @@ GPA: 3.84
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Technical Skills}
-Programming languages: C++, C, Python, Matlab, Shell Scripting\\
-Platforms: Linux, Git  \\
-Toolkits: TensorFlow, Keras, OpenCV, OpenCL\\
+Programming languages: C++, C, Python, Java, Matlab, Shell Scripting\\
+Platforms: Linux, Git, Perforce\\
+Toolkits/Standards: {\bf TensorFlow, Keras, OpenCV, OpenCL }, CUDAs, {\bf H.264}\\
+Ability to quickly pickup new languages and developement platforms\\
 
 \end{rSection}
 

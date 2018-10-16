@@ -98,7 +98,7 @@
   \sectionlineskip
   \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
-    \setlength{\leftmargin}{0.5em} % Margin within the section
+    \setlength{\leftmargin}{0.2em} % Margin within the section
   }
   \item[]
 }{
@@ -115,7 +115,7 @@
   \\
   {\em #3} \hfill {\em #4} % Italic job title and location %KURTIS modified to bold
   }%\smallskip
-  \begin{list}{$\cdot$}{\leftmargin=1.5em} % \cdot used for bullets, no indentation
+  \begin{list}{$\cdot$}{\leftmargin=0.2em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
